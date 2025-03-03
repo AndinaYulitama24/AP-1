@@ -1,37 +1,35 @@
-#include <stdio.h>// header untuk C
+#include <stdio.h> // header untuk C
 #include <conio.h>
-int main()
-{
+
+int main() {
     char nama[50];
     int nim;
     char kom[2];
     float ip;
 
-    printf("hallo world\n");//fungsi keluaran pada c
-    printf("masukan nama :");
-    gets(nama);// get string
+    printf("Hello World\n"); // fungsi keluaran pada C
+    printf("Masukkan nama : ");
+    gets(nama); // get string
 
-    printf("masukan nim:");
-    scanf("%d",&nim); //fungsi masukan pada c
+    printf("Masukkan nim : ");
+    scanf("%d", &nim); // fungsi masukan pada C
 
     getchar();
 
-    printf("masukan kom:");
-    scanf("%c",&kom); 
-    printf("masukan ip:");
-    scanf("%f",&ip); 
+    printf("Masukkan kom : ");
+    gets(kom); 
+    printf("Masukkan ip : ");
+    scanf("%f", &ip); 
 
-    /*untuk ouput*/
-    printf("nama :");
-    puts(nama); //put string digunakan untuk string dalam bentuk array char
+    /* Untuk Output */
+    printf("Nama : ");
+    puts(nama); // put string, digunakan untuk string dalam bentuk array char
 
-    printf("Nim : %d/n",nim);
-    printf("Kom : %c/n",kom);
-    puts(kom);
-    printf("ip : %f/n",ip);
+    printf("NIM : %d\n", nim);
+    printf("KOM : ");
+    puts(kom); 
+    printf("IP : %f\n", ip);
 
     printf("press any button to continue...");
     getch(); 
-
 }
-

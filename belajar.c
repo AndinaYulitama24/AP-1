@@ -4,7 +4,7 @@ int main()
 {
     char nama[50];
     int nim;
-    char kom;
+    char kom[2];
     float ip;
 
     printf("hallo world\n");//fungsi keluaran pada c

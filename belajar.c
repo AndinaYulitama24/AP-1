@@ -1,5 +1,5 @@
 #include <stdio.h>// header untuk C
-#include <conia.h>
+#include <conio.h>
 int main()
 {
     char nama[50];
